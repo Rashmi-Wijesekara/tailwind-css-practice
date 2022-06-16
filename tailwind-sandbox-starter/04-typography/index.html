@@ -4,27 +4,110 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            'sans': ['ui-sans-serif', 'system-ui'],
+            'serif': ['ui-serif', 'Georgia'],
+            'mono': ['ui-monospace', 'SFMono-Regular'],
+            'pop': ['Poppins']
+          }
+        }
+      }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Font family
+    </div>
+
+    <div class="font-sans">sans => hello world</div>
+    <div class="font-serif">serif => hello world</div>
+    <div class="font-mono">mono => hello world</div>
+    <div class="font-pop bg-sky-200 p-2 max-w-sm mb-5">poppins imported => hello world</div>
 
     <!-- Font Size -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Font size
+    </div>
+
+    <div class="text-xs">extra small</div>
+    <div class="text-sm">small</div>
+    <div class="text-base">base size</div>
+    <div class="text-lg">large</div>
+    <div class="text-xl">extra large</div>
+    <div class="text-2xl">double extra large</div>
+    <div class="text-3xl">tribble extra large</div>
+    <!-- all the way upto 9xl -->
 
     <!-- Font Weight -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Font weight
+    </div>
+
+    <div class="font-light">light weight</div>
+    <div class="font-normal">normal weight</div>
+    <div class="font-medium">medium weight</div>
+    <div class="font-semibold">semibold weight</div>
+    <div class="font-bold">bold weight</div>
 
     <!-- Letter Spacing -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Letter spacing
+    </div>
+
+    <div class="tracking-tight">tight => hello world</div>
+    <!-- letter-spacing: -0.025em; -->
+
+    <div class="tracking-normal">normal => hello world</div>
+    <div class="tracking-wide">wide => hello world</div>
 
     <!-- Text Alignment -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Text alignment
+    </div>
+
+    <div class="text-left">left alignment</div>
+    <div class="text-center">center alignment</div>
+    <div class="text-right">right alignment</div>
 
     <!-- Text Decoration -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Text decoration (underline)
+    </div>
+    <div class="underline">normal underline text</div>
+    <div class="underline decoration-4">width 4 underline text</div>
+    <div class="underline decoration-4 decoration-sky-400">sky blue, width 4 underline text</div>
 
     <!-- Decoration Style -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Decoration styles
+    </div>
+    <div class="underline decoration-double">double lined underline text</div>
+    <div class="underline decoration-dotted">dotted underline text</div>
+    <div class="underline decoration-dashed">dashed underline text</div>
+    <div class="underline decoration-wavy">wavy underline text</div>
 
+    
     <!-- Decoration Offset -->
+    <div class="font-pop bg-red-100 px-5 py-2 text-center font-semibold">
+      Decoration offset
+    </div>
+    <div class="mt-2 underline decoration-red-600 decoration-4 
+                underline-offset-8">pushed down underline text</div>
 
     <!-- Text Transform -->
+
+    <div class="mb-10"></div>
   </body>
 </html>
 
