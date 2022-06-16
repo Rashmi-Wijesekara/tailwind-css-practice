@@ -1,9 +1,9 @@
-# Tailwind Sandbox
+# Tailwind CSS Practice
 
-This is part of my Tailwind From Scratch course. The sandbox contains around 20 different folders/files that focus on specific aspects/classes of Tailwind.
+This was covered in the `Tailwind CSS From Scratch _ Learn By Building Projects` Udemy course.
 
-If you are taking the course, use the **"tailwind-sandbox-starter"** folder and work through the course with me. The **"tailwind-sandbox-done"** folder is obviously the finished code.
+The sandbox contains around 20 different folders/files that focus on specific aspects/classes of Tailwind.
 
-We are just using the Play CDN for this part of the course.
+The **"tailwind-sandbox-done"** folder is obviously the finished code.
 
-The main projects for the course will be in a different repo.
+This have used the Play CDN.
