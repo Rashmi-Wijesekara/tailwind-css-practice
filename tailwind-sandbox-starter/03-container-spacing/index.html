@@ -7,12 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Container & Spacing</title>
   </head>
-  <body>
+  <body class="mb-10">
     <!-- Container -->
-    <div>
-      <article>
-        <h3>Article One</h3>
-        <p>
+    <div class="container mx-auto my-auto">
+      <article class="bg-sky-200 py-5 px-10 mt-5 mx-5 rounded-xl hover:shadow-lg">
+        <h3 class="text-sky-700 text-lg font-semibold border border-b-2 mb-5 border-b-white">Article One</h3>
+        <p class="text-sm font-mono text-gray-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Exercitationem laboriosam libero molestiae recusandae accusantium
           voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
@@ -21,12 +21,36 @@
       </article>
 
       <!-- Margin -->
+      <div class="bg-slate-100 m-10">hello world</div>
+      <div class="bg-slate-100 ml-10">hello world</div> 
+      <!-- margin left -->
+
+      <div class="bg-slate-100 mt-10">hello world</div>
+      <div class="bg-slate-100 mt-[10px]">hello world</div>
 
       <!-- Padding -->
+      <div class="bg-slate-100 pt-10 m-10">hello world</div>
+      <div class="bg-slate-100 pt-[10px] m-10">hello world</div>
 
       <!-- Space Between X -->
+      <div class="flex mt-2 bg-red-100 space-x-10">
+        <div class="border border-red-500">Item 1</div>
+        <div class="border border-red-500">Item 2</div>
+        <div class="border border-red-500">Item 3</div>
+        <div class="border border-red-500">Item 4</div>
+        <div class="border border-red-500">Item 5</div>
+      </div>
 
       <!-- Space Between Y -->
+      <div class="flex flex-col mt-2 bg-sky-200 space-y-2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+      </div>
+
     </div>
   </body>
 </html>
