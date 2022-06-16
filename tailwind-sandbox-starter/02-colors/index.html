@@ -7,26 +7,84 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Colors</title>
   </head>
-  <body>
+  <body class="pb-20">
     <!-- Default colors -->
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
     <!-- Text Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Text Colors</p>
+      <p class="text-black">hello world!</p>
+      <p class="text-white">hello world!</p>
+      <p class="text-red-500">hello world!</p>
+      <p class="text-indigo-500">hello world!</p>
+      <p class="text-emerald-500">hello world!</p>
+    </div>
 
     <!-- Background Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Background Colors</p>
+      <p class="text-black bg-gray-400">hello world!</p>
+      <p class="text-white bg-black">hello world!</p>
+      <p class="text-red-500 bg-red-100">hello world!</p>
+      <p class="text-indigo-500 bg-sky-200">hello world!</p>
+      <p class="text-emerald-500 bg-green-200">hello world!</p>
+    </div>
 
     <!-- Text Underline -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Text underline</p>
+      <p class="text-red-500 bg-red-100 underline decoration-red-400">hello world!</p>
+    </div>
 
     <!-- Border Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Border Colors</p>
+      <input type="text" class="border border-red-500 mt-2">
+    </div>
 
     <!-- Divide Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Divide Colors</p>
+      <div class="divide-y divide-sky-500">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+      </div>
+    </div>
 
     <!-- Outline Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3 hover:bg-sky-600">
+      <p class="text-white font-semibold p-3 bg-sky-600">Outline Colors</p>
+      <button class="outline outline-red-600 bg-red-300 text-red-600 my-5 px-5 py-2 rounded-lg">Click Here</button>
+    </div>
 
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-white p-3">
+      <p class="text-white font-semibold p-3 bg-sky-600">Box shadow Colors</p>
+      <button class="shadow-lg 
+                    shadow-red-600
+                    active:shadow-red-400/50
+                    active:mt-6
+                    active:mb-4
+      font-semibold bg-red-100 mb-5 px-5 py-3 mt-5 border border-red-200 rounded-xl">Subscribe</button>
+    </div>
 
     <!-- Accent Colors -->
-
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-white p-3">
+      <p class="text-white font-semibold p-3 bg-sky-600 mb-5">Accent Colors</p>
+      <input type="checkbox" class="w-5 h-5 accent-purple-500" checked>
+      <input type="checkbox" class="w-5 h-5 accent-cyan-500" checked>
+    </div>
     <!-- Arbitrary Colors -->
+    <div class="my-3 mx-auto text-center max-w-sm rounded-xl bg-sky-200 p-3">
+      <p class="text-white font-semibold p-3 bg-sky-600 mb-5">Arbitrary Colors</p>
+      <div class="bg-[darkgreen]">hello</div>
+      <div class="bg-[#eee554]">hello</div>
+      <div class="bg-[rgb(4,200,2)]">hello</div>
+    </div>
+
   </body>
 </html>
