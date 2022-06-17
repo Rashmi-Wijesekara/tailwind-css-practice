@@ -1,37 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>TailwindCSS</title>
+	</head>
+	<body class="mb-20">
+		<!-- Positioning -->
+		<div class="relative w-1/2 h-12 bg-red-300">
+			<p>parent element</p>
+			<div class="absolute bottom-0 right-0 bg-red-500">absolute child</div>
+		</div>
 
-    <!-- Top left corner -->
+		<!-- Top left corner -->
+		<div class="relative h-32 w-32 bg-yellow-300">
+			<div class="absolute w-12 top-0 left-0 bg-yellow-700">
+				top left corner
+			</div>
+		</div>
 
-    <!-- Top right corner -->
+		<!-- Top right corner -->
+		<div class="relative h-32 w-32 bg-pink-300">
+			<div class="absolute w-12 top-0 right-0 bg-pink-700">
+				top right corner
+			</div>
+		</div>
 
-    <!-- Bottom left corner -->
+		<!-- Bottom left corner -->
+		<div class="relative h-36 w-36 bg-sky-300">
+			<div class="absolute w-16 bottom-0 left-0 bg-sky-700">
+				bottom left corner
+			</div>
+		</div>
 
-    <!-- Bottom right corner -->
+		<!-- Bottom right corner -->
+		<div class="relative h-36 w-36 bg-green-300">
+			<div class="absolute w-16 top-0 right-0 bg-green-700">
+				bottom right corner
+			</div>
+		</div>
 
-    <!-- Span top edge -->
+		<!-- Span top edge -->
+		<div class="relative h-32 w-40 bg-pink-300">
+			<div class="absolute inset-x-0 top-0 bg-pink-700">span top</div>
+		</div>
 
-    <!-- Span left edge -->
+		<!-- Span left edge -->
+		<div class="relative h-32 w-40 bg-sky-300">
+			<div class="absolute w-12 left-0 inset-y-0 bg-sky-700">span left</div>
+		</div>
 
-    <!-- Span right edge -->
+		<!-- Span right edge -->
+		<div class="relative h-32 w-40 bg-green-300">
+			<div class="absolute w-12 inset-y-0 right-0 bg-green-700">span right</div>
+		</div>
 
-    <!-- Span bottom edge -->
+		<!-- Span bottom edge -->
+		<div class="relative h-32 w-40 bg-yellow-300">
+			<div class="absolute inset-x-0 bottom-0 bg-yellow-700">span bottom</div>
+		</div>
 
-    <!-- Display Classes -->
+		<!-- Display Classes -->
+		<div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ut a
+			praesentium,
+			<span class="text-yellow-600 hidden">totam dolores quasi assumenda,</span>
+			libero deleniti vero quisquam, error vel corporis tempora quidem eius.
+			Laudantium id reiciendis tempora deserunt unde consequuntur laborum
+			perspiciatis, nihil exercitationem? Reprehenderit,
+			<span class="inline text-red-500 font-bold">
+				nisi dignissimos officia eaque consequuntur molestias aliquid,
+				laboriosam
+			</span>
+			aperiam ducimus, numquam placeat! Quo optio modi omnis! Perspiciatis enim
+			sunt ex velit eos. Lorem ipsum dolor sit amet consectetur adipisicing
+			elit.
+			<span class="block font-bold">
+				Ipsam temporibus ea est quasi eos fuga sequi explicabo inventore
+				ratione</span
+			>
+			amet beatae laudantium, quibusdam saepe nam minus reprehenderit, illum
+			eaque. Quasi.
+		</div>
 
-    <!-- Z-Index -->
+		<!-- Z-Index -->
+		<div class="relative h-36">
+			<div class="absolute left-10 w-24 h-24 bg-sky-300 z-50">1</div>
+			<div class="absolute left-20 w-24 h-24 bg-sky-400 z-40">2</div>
+			<div class="absolute left-40 w-24 h-24 bg-sky-500 z-60">3</div>
+			<div class="absolute left-48 w-24 h-24 bg-sky-600 z-20">4</div>
+			<div class="absolute left-60 w-24 h-24 bg-sky-700 z-10">5</div>
+		</div>
 
-    <!-- Floats -->
-  </body>
+		<!-- Floats -->
+		<div class="w-1/2 bg-red-100 p-5">
+			<img class="w-48 float-right m-2" src="../assets/img/img1.jpg" alt="" />
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam rem
+				magni sunt illum vero, voluptas iusto, ipsa libero molestiae ratione
+				pariatur et dolorem beatae enim iste in similique, excepturi nam unde
+				reiciendis odit necessitatibus assumenda. Nam odio quae consectetur
+				doloribus maxime, aut commodi aperiam dolore tempore sapiente libero?
+				Eligendi, totam reiciendis mollitia quos qui commodi ratione esse minus
+				quaerat. Molestiae.
+			</p>
+		</div>
+	</body>
 </html>
 
 <!-- Position Classes
