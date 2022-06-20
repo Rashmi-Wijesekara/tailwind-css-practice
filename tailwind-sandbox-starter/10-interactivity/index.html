@@ -1,34 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Interactivity</title>
-  </head>
-  <body>
-    <!-- Hover State Styling -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Interactivity</title>
+	</head>
+	<body class="mb-20">
+		<!-- Hover State Styling -->
+		<button
+			class="bg-red-300 px-8 py-3 mx-5 my-5 rounded-xl text-white font-semibold hover:bg-red-600"
+		>
+			Hover
+		</button>
 
-    <!-- Focus State Styling -->
+		<!-- Focus State Styling -->
+		<button
+			class="bg-red-300 px-8 py-3 mx-5 my-5 rounded-xl text-white font-semibold focus:bg-red-600"
+		>
+			Focus
+		</button>
 
-    <!-- Active State Styling -->
+		<!-- Active State Styling -->
+		<button
+			class="bg-red-300 px-8 py-3 mx-5 my-5 rounded-xl text-white font-semibold active:bg-sky-600"
+		>
+			Active
+		</button>
 
-    <!-- Styling based on parent state -->
+		<!-- Styling based on parent state -->
+		<div
+			class="relative group max-w-sm mx-auto p-5 pb-16 rounded-lg bg-sky-200 shadow-lg"
+		>
+			<h4 class="font-semibold">topic of the card</h4>
+			<p class="pt-3 group-hover:text-white">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum non
+				amet exercitationem numquam maxime!
+			</p>
 
-    <!-- Pseudo Classes -->
+			<button
+				class="absolute right-5 mt-2 bg-sky-400 text-white px-5 py-2 rounded-xl
+              group-hover:bg-sky-500"
+			>
+				More
+			</button>
+		</div>
 
-    <!-- Appearance -->
-    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+		<!-- Pseudo Classes -->
+    <ul class="max-w-xs mx-auto my-5 border shadow-lg font-semibold">
+      <li class="even:bg-red-200 even:hover:text-white odd:bg-red-400 text-center py-1 border border-red-300 ">Item 2</li>
+      <li class="even:bg-red-200 even:hover:text-white odd:bg-red-400 text-center py-1 border border-red-300 ">Item 1</li>
+      <li class="even:bg-red-200 even:hover:text-white odd:bg-red-400 text-center py-1 border border-red-300 ">Item 3</li>
+      <li class="even:bg-red-200 even:hover:text-white odd:bg-red-400 text-center py-1 border border-red-300 ">Item 4</li>
+      <li class="even:bg-red-200 even:hover:text-white odd:bg-red-400 text-center py-1 border border-red-300 ">Item 5</li>
+    </ul>
 
-    <!-- Cursor -->
+		<!-- Appearance -->
+		<!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    
+    <select name="options" id="options" class="">
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+    </select>
 
-    <!-- Resize -->
+    <select name="options" id="options" class="appearance-none">
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+    </select>
 
-    <!-- User Select -->
+		<!-- Cursor -->
+    <button
+			class="cursor-wait bg-red-300 px-8 py-3 mx-5 my-5 rounded-xl text-white font-semibold hover:bg-red-600"
+		>
+			Click here
+		</button>
 
-    <!-- Smooth Scroll Example -->
-  </body>
+		<!-- Resize -->
+
+		<!-- User Select -->
+
+		<!-- Smooth Scroll Example -->
+	</body>
 </html>
 
 <!-- Cursor
