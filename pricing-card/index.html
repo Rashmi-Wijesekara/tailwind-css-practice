@@ -1,12 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <title>Pricing Card</title>
 </head>
+
 <body>
-  
+  <!-- full container -->
+  <div class="flex h-screen items-center justify-center gap-8 bg-slate-800 text-slate-200">
+
+    <!-- card 1 -->
+    <div class="flex flex-col border-[10px] border-gray-600 rounded-2xl
+    transform hover:scale-105 duration-300">
+
+      <!-- top section -->
+      <div class="flex flex-col items-center pt-8 pb-10 border-b-2 border-b-gray-600">
+        <!-- type -->
+        <div class="text-lg my-3 mb-6">BASIC</div>
+
+        <!-- GB Amount -->
+        <div class="flex flex-row items-end mt-4">
+          <div class="text-5xl font-serif">100</div>
+          <div class="text-6xl font-serif">GB</div>
+        </div>
+
+        <!-- per month -->
+        <div class="mt-4 mb-6">$1.99/month</div>
+
+        <!-- button -->
+        <div class="cursor-pointer border-2 border-purple-700 px-10 py-3 font-semibold rounded-xl
+        hover:bg-purple-500 transform duration-300 hover:scale-105">Purchase</div>
+      </div>
+
+      <!-- details (bottom section) -->
+      <div class="my-6 px-6">
+        <div class="flex flex-row py-2 justify-center">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">100 GB storage</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Option to add members</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Extra member benefits</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="flex flex-col border-[10px] border-purple-700 rounded-2xl
+        transform hover:scale-105 duration-300">
+    
+      <!-- top section -->
+      <div class="flex flex-col items-center pt-8 pb-10 border-b-2 border-b-gray-600">
+        <!-- type -->
+        <div class="text-lg my-3 mb-6">STANDARD</div>
+    
+        <!-- GB Amount -->
+        <div class="flex flex-row items-end mt-4">
+          <div class="text-5xl font-serif">200</div>
+          <div class="text-6xl font-serif">GB</div>
+        </div>
+    
+        <!-- per month -->
+        <div class="mt-4 mb-6">$3.99/month</div>
+    
+        <!-- button -->
+        <div class="cursor-pointer bg-purple-700 px-10 py-3 font-semibold rounded-xl
+            hover:bg-purple-500 transform duration-300 hover:scale-105">Purchase</div>
+      </div>
+    
+      <!-- details (bottom section) -->
+      <div class="my-6 px-6">
+        <div class="flex flex-row py-2 justify-center">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">200 GB storage</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Option to add members</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Extra member benefits</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="flex flex-col border-[10px] border-gray-600 rounded-2xl
+        transform hover:scale-105 duration-300">
+    
+      <!-- top section -->
+      <div class="flex flex-col items-center pt-8 pb-10 border-b-2 border-b-gray-600">
+        <!-- type -->
+        <div class="text-lg my-3 mb-6">PREMIUM</div>
+    
+        <!-- GB Amount -->
+        <div class="flex flex-row items-end mt-4">
+          <div class="text-5xl font-serif">2</div>
+          <div class="text-6xl font-serif">TB</div>
+        </div>
+    
+        <!-- per month -->
+        <div class="mt-4 mb-6">$8.99/month</div>
+    
+        <!-- button -->
+        <div class="cursor-pointer border-2 border-purple-700 px-10 py-3 font-semibold rounded-xl
+            hover:bg-purple-500 transform duration-300 hover:scale-105">Purchase</div>
+      </div>
+    
+      <!-- details (bottom section) -->
+      <div class="my-6 px-6">
+        <div class="flex flex-row py-2 justify-center">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">2 TB storage</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Option to add members</div>
+        </div>
+        <div class="flex flex-row py-2">
+          <img src="images/check.svg" alt="check icon" class="w-6 mx-4">
+          <div class="">Extra member benefits</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </body>
+
 </html>
